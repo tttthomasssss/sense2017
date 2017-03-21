@@ -1,0 +1,203 @@
+Lexeme	Sense Definition 1	Sense Definition 2	PoS
+bad	of poor quality or a low standard	of poor quality or a low standard	good; excellent	Adjective
+negative	(of the results of a test or experiment) indicating that a certain substance or condition is not present or does not exist	(of the results of a test or experiment) indicating that a certain substance or condition is not present or does not exist	denoting decrease or reversal	Adjective
+soft	(of a job or way of life) requiring little effort	(of a job or way of life) requiring little effort	having a smooth surface or texture; not rough or coarse	Adjective
+smooth	(of a liquid) with an even consistency; without lumps	(of a liquid) with an even consistency; without lumps	(of movement) without jerks	Adjective
+content	in a state of peaceful happiness	in a state of peaceful happiness	willing to accept something; satisfied	Adjective
+slack	(of a tide) neither ebbing nor flowing	(of a tide) neither ebbing nor flowing	(of business or trade) characterized by a lack of work or activity; quiet	Adjective
+male	of or denoting the sex that produces gametes, especially spermatozoa, with which a female may be fertilized or inseminated to produce offspring	of or denoting the sex that produces gametes, especially spermatozoa, with which a female may be fertilized or inseminated to produce offspring	(of a plant or flower) bearing stamens but lacking functional pistils	Adjective
+real	rightly so called; proper	rightly so called; proper	adjusted for changes in the value of money; assessed by purchasing power	Adjective
+high	very favourable	very favourable	ranking above others of the same kind	Adjective
+original	present or existing from the beginning; first or earliest	present or existing from the beginning; first or earliest	created personally by a particular artist, writer, musician, etc.; not a copy	Adjective
+raw	(of food) not cooked	(of food) not cooked	(of a material or substance) in its natural state; unprocessed	Adjective
+sound	based on valid reason or good judgement	based on valid reason or good judgement	financially secure	Adjective
+general	not specialized or limited in range of subject, application, activity, etc.	not specialized or limited in range of subject, application, activity, etc.	considering or including only the main features or elements of something; not exact or detailed	Adjective
+international	existing, occurring, or carried on between nations	existing, occurring, or carried on between nations	used by people of many nations	Adjective
+gross	(especially of wrongdoing) very obvious and unacceptable	(especially of wrongdoing) very obvious and unacceptable	general or large-scale; not detailed	Adjective
+compact	closely and neatly packed together; dense	closely and neatly packed together; dense	(of a person or animal) small, strong, and well proportioned	Adjective
+mean	vicious or aggressive in behaviour	vicious or aggressive in behaviour	very skilful or effective; excellent	Adjective
+double	(of a letter or number) occurring twice in succession	(of a letter or number) occurring twice in succession	having two different roles or interpretations, especially in order to deceive or confuse	Adjective
+just	(of treatment) deserved or appropriate in the circumstances	(of treatment) deserved or appropriate in the circumstances	(of an opinion or appraisal) well founded; justifiable	Adjective
+idle	(especially of a threat or boast) without foundation	(especially of a threat or boast) without foundation	(especially of a machine or factory) not active or in use	Adjective
+clean	(of a person) not taking or having taken drugs or alcohol	(of a person) not taking or having taken drugs or alcohol	showing or having no record of offences or crimes	Adjective
+small	not fully grown or developed; young	not fully grown or developed; young	(of a business or its owner) operating on a modest scale	Adjective
+hard	(of pornography) highly obscene and explicit	(of pornography) highly obscene and explicit	(of a person) not showing any signs of weakness; tough	Adjective
+green	(of a product or service) not harmful to the environment	(of a product or service) not harmful to the environment	(of a plant or fruit) young or unripe	Adjective
+slow	(of a fire or oven) burning or giving off heat gently	(of a fire or oven) burning or giving off heat gently	taking a long time to perform a specified action	Adjective
+next	(of a day of the week) nearest (or the nearest but one) after the present	(of a day of the week) nearest (or the nearest but one) after the present	(of a time) coming immediately after the time of writing or speaking	Adjective
+dark	(of a region) most remote, inaccessible, or uncivilized	(of a region) most remote, inaccessible, or uncivilized	ignorant; unenlightened	Adjective
+obscure	hard to make out or define; vague	hard to make out or define; vague	not clearly expressed or easily understood	Adjective
+live	(of a question or subject) of current or continuing interest and importance	(of a question or subject) of current or continuing interest and importance	relating to a musical performance given in concert, not on a recording	Adjective
+important	of great significance or value	of great significance or value	(of a person) having high rank or status	Adjective
+open	(of a business, place of entertainment, etc.) admitting customers or visitors; available for business	(of a business, place of entertainment, etc.) admitting customers or visitors; available for business	(of a hand) not clenched into a fist	Adjective
+full	not lacking or omitting anything; complete	not lacking or omitting anything; complete	(of a report or account) containing as much detail or information as possible	Adjective
+long	(of shares, bonds, or other assets) bought in advance, with the expectation of a rise in price	(of shares, bonds, or other assets) bought in advance, with the expectation of a rise in price	(after a measurement and in questions) measuring a specified distance from end to end	Adjective
+human	of or characteristic of people as opposed to God or animals or machines, especially in being susceptible to weaknesses	of or characteristic of people as opposed to God or animals or machines, especially in being susceptible to weaknesses	relating to or characteristic of humankind	Adjective
+effective	assessed according to actual rather than face value	assessed according to actual rather than face value	(of a law, rule, or policy) operative	Adjective
+old	possessed or used for a long time	possessed or used for a long time	having lived for a long time; no longer young	Adjective
+plain	not using concealment or deception; frank	not using concealment or deception; frank	not distinguished by any particular beauty; ordinary looking	Adjective
+whole	used to emphasize a large extent or number	used to emphasize a large extent or number	in an unbroken or undamaged state; in one piece	Adjective
+solid	firm and stable in shape; not liquid or fluid	firm and stable in shape; not liquid or fluid	(of a line or surface) without spaces; unbroken	Adjective
+own	particular to the person or thing mentioned; individual	particular to the person or thing mentioned; individual	used with a possessive to emphasize that someone or something belongs or relates to the person mentioned	Adjective
+shadow	used in reference to proximity, ominous oppressiveness, or sadness and gloom	used in reference to proximity, ominous oppressiveness, or sadness and gloom	a weak or inferior remnant or version of something	Noun
+bond	an insurance policy held by a company, which protects against losses resulting from circumstances such as bankruptcy	an insurance policy held by a company, which protects against losses resulting from circumstances such as bankruptcy	an agreement with legal force, in particular:	Noun
+future	a period of time following the moment of speaking or writing; time regarded as still to come	a period of time following the moment of speaking or writing; time regarded as still to come	contracts for assets (especially commodities or shares) bought at agreed prices but delivered and paid for later	Noun
+knowledge	true, justified belief; certain understanding, as opposed to opinion	true, justified belief; certain understanding, as opposed to opinion	the sum of what is known	Noun
+art	the expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power	the expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power	works produced by human creative skill and imagination	Noun
+deal	a plank made of fir or pine wood	a plank made of fir or pine wood	fir or pine wood as a building material	Noun
+second	a very short time	a very short time	a sixtieth of a minute of time, which as the SI unit of time is defined in terms of the natural periodicity of the radiation of a caesium-133 atom	Noun
+bar	the profession of barrister	the profession of barrister	a band of colour or light	Noun
+building	the action or trade of constructing something	the action or trade of constructing something	a flock of rooks	Noun
+night	an evening characterized by a particular event or activity	an evening characterized by a particular event or activity	the period between afternoon and bedtime; an evening	Noun
+company	the fact or condition of being with another or others, especially in a way that provides friendship and enjoyment	the fact or condition of being with another or others, especially in a way that provides friendship and enjoyment	a commercial business	Noun
+term	a tenancy of a fixed period	a tenancy of a fixed period	each of the quantities in a ratio, series, or mathematical expression	Noun
+king	a playing card bearing a representation of a king, normally ranking next below an ace	a playing card bearing a representation of a king, normally ranking next below an ace	the male ruler of an independent state, especially one who inherits the position by right of birth	Noun
+conduct	the action of leading; guidance	the action of leading; guidance	the manner in which a person behaves, especially in a particular place or situation	Noun
+city	the financial and commercial institutions located in the City of London	the financial and commercial institutions located in the City of London	a place or situation characterized by a specified attribute	Noun
+gauge	the thickness of sheet metal or plastic	the thickness of sheet metal or plastic	a tool for checking whether something conforms to a desired dimension	Noun
+service	a periodic routine inspection and maintenance of a vehicle or other machine	a periodic routine inspection and maintenance of a vehicle or other machine	the action of helping or doing work for someone	Noun
+access	an attack or outburst of an emotion	an attack or outburst of an emotion	the right or opportunity to use or benefit from something	Noun
+former	a person or thing that forms something	a person or thing that forms something	a tool, mould, or other device used to form articles or shape materials	Noun
+threat	a menace of bodily harm, such as may restrain a person's freedom of action	a menace of bodily harm, such as may restrain a person's freedom of action	a person or thing likely to cause damage or danger	Noun
+chance	an opportunity to do or achieve something	an opportunity to do or achieve something	the occurrence of events in the absence of any obvious intention or cause	Noun
+concord	a treaty	a treaty	agreement between words in gender, number, case, person, or any other grammatical category which affects the forms of the words	Noun
+bay	a broad inlet of the sea where the land curves inwards	a broad inlet of the sea where the land curves inwards	an indentation or recess in a range of hills or mountains	Noun
+taste	the ability to discern what is of good quality or of a high aesthetic standard	the ability to discern what is of good quality or of a high aesthetic standard	a person's tendency to like or be interested in something	Noun
+mount	any of several fleshy prominences on the palm of the hand regarded in palmistry as signifying the degree of influence of a particular planet	any of several fleshy prominences on the palm of the hand regarded in palmistry as signifying the degree of influence of a particular planet	a mountain or hill (archaic except in place names)	Noun
+pace	a unit of length representing the distance between two successive steps in walking	a unit of length representing the distance between two successive steps in walking	a person's manner of walking or running	Noun
+debate	an argument about a particular subject, especially one in which many people are involved	an argument about a particular subject, especially one in which many people are involved	a formal discussion on a particular matter in a public meeting or legislative assembly, in which opposing arguments are put forward and which usually ends with a vote	Noun
+tender	a dinghy or other boat used to ferry people and supplies to and from a ship	a dinghy or other boat used to ferry people and supplies to and from a ship	a trailing vehicle closely coupled to a steam locomotive to carry fuel and water	Noun
+application	a program or piece of software designed to fulfil a particular purpose	a program or piece of software designed to fulfil a particular purpose	the action of applying something to a surface	Noun
+channel	a length of water wider than a strait, joining two larger areas of water, especially two seas	a length of water wider than a strait, joining two larger areas of water, especially two seas	the semiconductor region in a field-effect transistor that forms the main current path between the source and the drain	Noun
+shell	a cartridge	a cartridge	the outer case of a nut kernel or seed	Noun
+theory	an idea used to account for a situation or justify a course of action	an idea used to account for a situation or justify a course of action	a supposition or a system of ideas intended to explain something, especially one based on general principles independent of the thing to be explained	Noun
+reality	a thing that is actually experienced or seen, especially when this is unpleasant	a thing that is actually experienced or seen, especially when this is unpleasant	the state of things as they actually exist, as opposed to an idealistic or notional idea of them	Noun
+process	a series of actions or steps taken in order to achieve a particular end	a series of actions or steps taken in order to achieve a particular end	a natural appendage or outgrowth on or in an organism, such as a protuberance on a bone	Noun
+person	(in legal or formal contexts) an unspecified individual	(in legal or formal contexts) an unspecified individual	an individual's body	Noun
+board	the part of the floor of a shearing shed where the shearers work	the part of the floor of a shearing shed where the shearers work	a long, thin, flat piece of wood or other hard material, used for floors or other building purposes	Noun
+law	a statement of fact, deduced from observation, to the effect that a particular natural or scientific phenomenon always occurs if certain conditions are present	a statement of fact, deduced from observation, to the effect that a particular natural or scientific phenomenon always occurs if certain conditions are present	statute law and the common law	Noun
+resident	a medical graduate engaged in specialized practice under supervision in a hospital	a medical graduate engaged in specialized practice under supervision in a hospital	a pupil who boards at a boarding school	Noun
+shaft	a long, narrow, typically vertical hole that gives access to a mine, accommodates a lift in a building, or provides ventilation	a long, narrow, typically vertical hole that gives access to a mine, accommodates a lift in a building, or provides ventilation	a long cylindrical rotating rod for the transmission of motive power in a machine	Noun
+majority	a party or group receiving the greater number of votes	a party or group receiving the greater number of votes	the number by which the votes cast for one party or candidate exceed those for the next	Noun
+century	a score of a hundred in a sporting event, especially a batsman's score of a hundred runs in cricket	a score of a hundred in a sporting event, especially a batsman's score of a hundred runs in cricket	a period of a hundred years reckoned from the traditional date of the birth of Christ	Noun
+strategy	a plan for directing overall military operations and movements	a plan for directing overall military operations and movements	a plan of action designed to achieve a long-term or overall aim	Noun
+sale	the activity or business of selling products	the activity or business of selling products	a public or charitable event at which goods are sold or auctioned	Noun
+scale	an instrument for weighing, originally a simple balance (a pair of scales) but now usually a device with an electronic or other internal weighing mechanism	an instrument for weighing, originally a simple balance (a pair of scales) but now usually a device with an electronic or other internal weighing mechanism	either of the dishes on a simple balance	Noun
+bottom	the ground under a sea, river, or lake	the ground under a sea, river, or lake	the lowest point or part of something	Noun
+land	living or travelling on land rather than in water or the air	living or travelling on land rather than in water or the air	the part of the earth's surface that is not covered by water	Noun
+factor	a gene that determines a hereditary characteristic	a gene that determines a hereditary characteristic	a number or quantity that when multiplied with another produces a given number or expression	Noun
+clip	a clip for holding banknotes	a clip for holding banknotes	a piece of jewellery fastened by a clip	Noun
+driver	a wheel or other part in a mechanism that receives power directly and transmits motion to other parts	a wheel or other part in a mechanism that receives power directly and transmits motion to other parts	a device or part of a circuit that provides power for output	Noun
+goal	a cage or basket used as a goal in other sports	a cage or basket used as a goal in other sports	an instance of sending the ball into or over the goal, especially as a unit of scoring in a game	Noun
+card	a playing card	a playing card	a record of scores in a sporting event; a scorecard	Noun
+event	a thing that happens or takes place, especially one of importance	a thing that happens or takes place, especially one of importance	a planned public or social occasion	Noun
+silver	coins made from silver or from a metal that resembles silver	coins made from silver or from a metal that resembles silver	a precious shiny greyish-white metal, the chemical element of atomic number 47	Noun
+game	an activity that one engages in for amusement	an activity that one engages in for amusement	a meeting for sporting contests	Noun
+demand	an insistent and peremptory request, made as of right	an insistent and peremptory request, made as of right	pressing requirements	Noun
+mantle	a mesh cover fixed round a gas jet to give an incandescent light when heated	a mesh cover fixed round a gas jet to give an incandescent light when heated	a loose sleeveless cloak or shawl, worn especially by women	Noun
+scheme	a large-scale systematic plan or arrangement for attaining some particular object or putting a particular idea into effect	a large-scale systematic plan or arrangement for attaining some particular object or putting a particular idea into effect	an estate of social housing	Noun
+account	an arrangement by which a user is given personalized access to a computer, website, or application, typically by entering a username and password	an arrangement by which a user is given personalized access to a computer, website, or application, typically by entering a username and password	a bill for goods or services provided over a period	Noun
+base	the uninflected form of a verb	the uninflected form of a verb	the part of a column between the shaft and pedestal or pavement	Noun
+whistle	a shrill, high-pitched sound	a shrill, high-pitched sound	a clear, high-pitched sound made by forcing breath through a small hole between partly closed lips, or between one's teeth	Noun
+community	a group of interdependent plants or animals growing or living together in natural conditions or occupying a specified habitat	a group of interdependent plants or animals growing or living together in natural conditions or occupying a specified habitat	the people of a district or country considered collectively, especially in the context of social values and responsibilities; society	Noun
+title	the position of being the champion of a major sports competition	the position of being the champion of a major sports competition	a book, magazine, or newspaper considered as a publication	Noun
+collar	a heavy rounded part of the harness worn by a draught animal, which rests at the base of its neck on the shoulders	a heavy rounded part of the harness worn by a draught animal, which rests at the base of its neck on the shoulders	a coloured marking resembling a collar round the neck of a bird or other animal	Noun
+coach	a railway carriage	a railway carriage	a comfortably equipped single-decker bus used for longer journeys	Noun
+shade	a slight degree of difference between colours	a slight degree of difference between colours	comparative darkness and coolness caused by shelter from direct sunlight	Noun
+adult	a person who has reached the age of majority	a person who has reached the age of majority	a person who is fully grown or developed	Noun
+case	a box containing twelve bottles of wine or other drink, sold as a unit	a box containing twelve bottles of wine or other drink, sold as a unit	a container designed to hold or protect something	Noun
+movement	a group of people working together to advance their shared political, social, or artistic ideas	a group of people working together to advance their shared political, social, or artistic ideas	a change or development	Noun
+culture	a preparation of cells obtained by culture	a preparation of cells obtained by culture	the ideas, customs, and social behaviour of a particular people or society	Noun
+suit	a petition or entreaty made to a person in authority	a petition or entreaty made to a person in authority	a set of clothes to be worn for a particular activity	Noun
+compound	an open area enclosed by a fence, for example around a factory or large house or within a prison	an open area enclosed by a fence, for example around a factory or large house or within a prison	an area containing single-sex living quarters for migrant workers, especially miners	Noun
+hood	a covering for the head and neck with an opening for the face, typically forming part of a coat or cloak	a covering for the head and neck with an opening for the face, typically forming part of a coat or cloak	a leather covering for a hawk's head	Noun
+sense	a feeling that something is the case	a feeling that something is the case	a sane and realistic attitude to situations and problems	Noun
+skin	the skin of a dead animal with or without the fur, used as material for clothing or other items	the skin of a dead animal with or without the fur, used as material for clothing or other items	the thin layer of tissue forming the natural outer covering of the body of a person or animal	Noun
+home	the district or country where one was born or has settled on a long-term basis	the district or country where one was born or has settled on a long-term basis	the family or social unit occupying a permanent residence	Noun
+argument	an independent variable associated with a function or proposition and determining its value. For example, in the expression y = F(x₁, x₂), the arguments of the function F are x₁ and x₂, and the value is y	an independent variable associated with a function or proposition and determining its value. For example, in the expression y = F(x₁, x₂), the arguments of the function F are x₁ and x₂, and the value is y	an exchange of diverging or opposite views, typically a heated or angry one	Noun
+day	a particular period in a person's life or career	a particular period in a person's life or career	the present time	Noun
+ARM	each of the lines enclosing an angle	each of the lines enclosing an angle	used to refer to something powerful or protective	Noun
+director	a person who is in charge of an activity, department, or organization	a person who is in charge of an activity, department, or organization	a member of the board of people that manages or oversees the affairs of a business	Noun
+campaign	a series of military operations intended to achieve a goal, confined to a particular area, or involving a specified type of fighting	a series of military operations intended to achieve a goal, confined to a particular area, or involving a specified type of fighting	an organized course of action to achieve a goal	Noun
+test	a short written or spoken examination of a person's proficiency or knowledge	a short written or spoken examination of a person's proficiency or knowledge	a procedure employed to identify a substance or to reveal the presence or absence of a constituent within a substance	Noun
+care	serious attention or consideration applied to doing something correctly or to avoid damage or risk	serious attention or consideration applied to doing something correctly or to avoid damage or risk	an object of concern or attention	Noun
+cutting	a piece cut from a plant for propagation	a piece cut from a plant for propagation	the action of cutting something	Noun
+treatment	medical care given to a patient for an illness or injury	medical care given to a patient for an illness or injury	the manner in which someone behaves towards or deals with someone or something	Noun
+pass	a passage for fish over or past a weir or dam	a passage for fish over or past a weir or dam	a route over or through mountains	Noun
+class	a set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality	a set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality	all of the college or school students of a particular year	Noun
+end	a goal or desired result	a goal or desired result	a specified extreme of a scale	Noun
+family	a principal taxonomic category that ranks above genus and below order, usually ending in -idae (in zoology) or -aceae (in botany)	a principal taxonomic category that ranks above genus and below order, usually ending in -idae (in zoology) or -aceae (in botany)	a group consisting of two parents and their children living together as a unit	Noun
+tail	women collectively regarded in sexual terms	women collectively regarded in sexual terms	the rear part of an aeroplane, with the tailplane and rudder	Noun
+exposure	a physical condition resulting from being outside in severe weather without adequate protection	a physical condition resulting from being outside in severe weather without adequate protection	the quantity of light reaching a photographic film, as determined by shutter speed and lens aperture	Noun
+grade	a particular level of rank, quality, proficiency, or value	a particular level of rank, quality, proficiency, or value	a level in a salary or employment structure	Noun
+fold	a pen or enclosure in a field where livestock, especially sheep, can be kept	a pen or enclosure in a field where livestock, especially sheep, can be kept	a group or community, especially when perceived as having shared aims and values	Noun
+bolt	the sliding piece of the breech mechanism of a rifle	the sliding piece of the breech mechanism of a rifle	a bar that slides into a socket to fasten a door or window	Noun
+click	a short, sharp sound as of a switch being operated or of two hard objects coming smartly into contact	a short, sharp sound as of a switch being operated or of two hard objects coming smartly into contact	an act of pressing a button on a mouse or similar device	Noun
+pocket	a person's financial resources	a person's financial resources	a small bag sewn into or on clothing so as to form part of it, used for carrying small articles	Noun
+pattern	a wooden or metal model from which a mould is made for a casting	a wooden or metal model from which a mould is made for a casting	an excellent example for others to follow	Noun
+reader	a person entitled to use a particular library	a person entitled to use a particular library	a person who inspects and records the figure indicated on a measuring instrument	Noun
+ability	talent, skill, or proficiency in a particular area	talent, skill, or proficiency in a particular area	possession of the means or skill to do something	Noun
+medium	an agency or means of doing something	an agency or means of doing something	the material or form used by an artist, composer, or writer	Noun
+suffer	experience or be subjected to (something bad or unpleasant)	experience or be subjected to (something bad or unpleasant)	undergo martyrdom or execution	Verb
+strip	remove the clothes from (someone)	remove the clothes from (someone)	remove bark and branches from (a tree)	Verb
+release	surrender (a right)	surrender (a right)	remove (part of a machine or appliance) from a fixed position, allowing something else to move or function	Verb
+yield	produce or generate (a result, gain, or financial return)	produce or generate (a result, gain, or financial return)	give right of way to other traffic	Verb
+wave	move one's hand to and fro in greeting or as a signal	move one's hand to and fro in greeting or as a signal	move to and fro with a swaying motion while remaining fixed to one point	Verb
+fall	(of someone's eyes or glance) be directed downwards	(of someone's eyes or glance) be directed downwards	(of a measuring instrument) show a lower reading	Verb
+suppose	used to introduce a hypothesis and imagine its development	used to introduce a hypothesis and imagine its development	be required to do something because of the position one is in or an agreement one has made	Verb
+pay	make (a visit or call) to (someone)	make (a visit or call) to (someone)	(of a business, activity, or an attitude) be profitable or advantageous	Verb
+pull	carry out or achieve (something clever or duplicitous)	carry out or achieve (something clever or duplicitous)	withdraw or disqualify (a player) from a game	Verb
+hook	bend into the shape of a hook so as to fasten around or to an object	bend into the shape of a hook so as to fasten around or to an object	attach or fasten with a hook or hooks	Verb
+prick	(of tears) cause the sensation of imminent weeping in (a person's eyes)	(of tears) cause the sensation of imminent weeping in (a person's eyes)	make a small hole in (something) with a sharp point; pierce slightly	Verb
+shift	remove (a stain)	remove (a stain)	sell (something)	Verb
+struggle	make forceful or violent efforts to get free of restraint or constriction	make forceful or violent efforts to get free of restraint or constriction	strive to achieve or attain something in the face of difficulty or resistance	Verb
+digest	treat (a substance) with heat, enzymes, or a solvent in order to decompose it or extract essential components	treat (a substance) with heat, enzymes, or a solvent in order to decompose it or extract essential components	arrange in a systematic or convenient order, especially by reduction	Verb
+fly	wave or flutter in the wind	wave or flutter in the wind	(of a bird, bat, or insect) move through the air using wings	Verb
+flash	shine or show a light to send (a signal)	shine or show a light to send (a signal)	move or pass very quickly	Verb
+swallow	take in and cause to disappear; engulf	take in and cause to disappear; engulf	completely use up (money or resources)	Verb
+spoil	(of food) become unfit for eating	(of food) become unfit for eating	prevent someone from enjoying (an occasion or event)	Verb
+undercut	offer goods or services at a lower price than (a competitor)	offer goods or services at a lower price than (a competitor)	cut or wear away the part below or under (something, especially a cliff)	Verb
+drift	walk slowly, aimlessly, or casually	walk slowly, aimlessly, or casually	be carried slowly by a current of air or water	Verb
+purge	remove a group of undesirable people from (an organization or place) in an abrupt or violent way	remove a group of undesirable people from (an organization or place) in an abrupt or violent way	atone for or wipe out (contempt of court)	Verb
+mention	refer to (something) briefly and without going into detail	refer to (something) briefly and without going into detail	refer to (someone) as being noteworthy, especially as a potential candidate for a post	Verb
+spin	fish with a spinner	fish with a spinner	(with reference to a ball) move or cause to move through the air with a revolving motion	Verb
+retire	withdraw to or from a particular place	withdraw to or from a particular place	leave one's job and cease to work, typically on reaching the normal age for leaving service	Verb
+push	exert force on (someone or something) in order to move them away from oneself	exert force on (someone or something) in order to move them away from oneself	press (a part of a machine or other device)	Verb
+play	engage in activity for enjoyment and recreation rather than a serious or practical purpose	engage in activity for enjoyment and recreation rather than a serious or practical purpose	move (a piece) or display (a playing card) in one's turn in a game	Verb
+see	give an interview or consultation to	give an interview or consultation to	view or predict as a possibility; envisage	Verb
+stamp	crush, flatten, or remove with a heavy blow from one's foot	crush, flatten, or remove with a heavy blow from one's foot	walk with heavy, forceful steps	Verb
+break	disprove (an alibi)	disprove (an alibi)	(of a bowled cricket ball) change direction on bouncing, due to spin	Verb
+pinch	arrest (someone)	arrest (someone)	grip (something, typically a person's flesh) tightly and sharply between finger and thumb	Verb
+eat	put (food) into the mouth and chew and swallow it	put (food) into the mouth and chew and swallow it	have (a meal)	Verb
+thrust	force (someone) to accept or deal with something	force (someone) to accept or deal with something	push suddenly or violently in a specified direction	Verb
+wish	express a hope that (someone) enjoys (happiness or success)	express a hope that (someone) enjoys (happiness or success)	want to do something	Verb
+fail	behave in a way contrary to expectations by not doing something	behave in a way contrary to expectations by not doing something	be unsuccessful in achieving one's goal	Verb
+expect	require (something) as rightfully due or appropriate in the circumstances	require (something) as rightfully due or appropriate in the circumstances	believe that (someone or something) will arrive soon	Verb
+split	(with reference to a group of people) divide into two or more groups	(with reference to a group of people) divide into two or more groups	end a marriage or an emotional or working relationship	Verb
+bind	cause (people) to feel united	cause (people) to feel united	make a contractual or enforceable undertaking	Verb
+waste	(of a person or a part of the body) become progressively weaker and more emaciated	(of a person or a part of the body) become progressively weaker and more emaciated	use or expend carelessly, extravagantly, or to no purpose	Verb
+depend	hang down	hang down	be able to trust; rely on	Verb
+dash	run or travel somewhere in a great hurry	run or travel somewhere in a great hurry	strike or fling (something) somewhere with great force, especially so as to have a destructive effect; hurl	Verb
+come up	(of an issue, situation, or problem) occur or present itself, especially unexpectedly	(of an issue, situation, or problem) occur or present itself, especially unexpectedly	become brighter in a specified way as a result of being polished or cleaned	Verb
+shine	(of the sun or another source of light) give out a bright light	(of the sun or another source of light) give out a bright light	(of a person's eyes) be bright with emotion	Verb
+need	require (something) because it is essential or very important rather than just desirable	require (something) because it is essential or very important rather than just desirable	expressing necessity or obligation	Verb
+decide	come or bring to a resolution in the mind as a result of consideration	come or bring to a resolution in the mind as a result of consideration	give a judgement concerning a matter or legal case	Verb
+settle	make one's permanent home somewhere	make one's permanent home somewhere	(of a ship) begin to sink	Verb
+grip	(of an emotion or situation) have a strong or adverse effect on	(of an emotion or situation) have a strong or adverse effect on	take and keep a firm hold of; grasp tightly	Verb
+put	move to or place in a particular position	move to or place in a particular position	express (a thought or comment) in a particular way	Verb
+lap	(of water) wash against (something) with a gentle rippling sound	(of water) wash against (something) with a gentle rippling sound	(of an animal) take up (liquid) with quick movements of the tongue	Verb
+read	habitually read (a particular newspaper or periodical)	habitually read (a particular newspaper or periodical)	(of a device) obtain data from (light or other input)	Verb
+launch	introduce (a new product or publication) to the public for the first time	introduce (a new product or publication) to the public for the first time	hurl (something) forcefully	Verb
+spell	write or name the letters that form (a word) in correct sequence	write or name the letters that form (a word) in correct sequence	(of letters) make up or form (a word)	Verb
+visit	stay temporarily with (someone) or at (a place) as a guest or tourist	stay temporarily with (someone) or at (a place) as a guest or tourist	access and view (a website or web page)	Verb
+make out	make progress; fare	make progress; fare	engage in sexual activity	Verb
+prime	pour or spray liquid into (a pump) before starting in order to seal the moving parts and facilitate its operation	pour or spray liquid into (a pump) before starting in order to seal the moving parts and facilitate its operation	cover (a surface) with a primer	Verb
+become	grow to be; develop into	grow to be; develop into	(of a person) qualify or be accepted as	Verb
+concern	have a specific connection with or responsibility for	have a specific connection with or responsibility for	make (someone) anxious or worried	Verb
+hitch	fasten or tether	fasten or tether	move (something) into a different position with a jerk	Verb
+cry	(of a street trader) shout out the name of (goods for sale)	(of a street trader) shout out the name of (goods for sale)	say something loudly in an excited or anguished tone of voice	Verb
+act	express repressed emotion or impulses in overt behaviour as a defensive substitute for conscious recall, typical of some behavioural disorders	express repressed emotion or impulses in overt behaviour as a defensive substitute for conscious recall, typical of some behavioural disorders	take action according to or in the light of	Verb
+propose	put forward (a plan or suggestion) for consideration by others	put forward (a plan or suggestion) for consideration by others	put forward (a motion) to a legislature or committee	Verb
+turn	have recourse to (something, especially something harmful)	have recourse to (something, especially something harmful)	twist or sprain (an ankle)	Verb
+may	expressing a wish or hope	expressing a wish or hope	used when admitting that something is so before making another, more important point	Verb
+rig	set up (equipment or a device or structure), typically in a makeshift or hasty way	set up (equipment or a device or structure), typically in a makeshift or hasty way	provide (a sailing boat) with sails and rigging	Verb

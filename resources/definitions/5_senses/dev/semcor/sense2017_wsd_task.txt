@@ -1,0 +1,17 @@
+Lexeme	Sense Definition 1	Sense Definition 2	Sense Definition 3	Sense Definition 4	Sense Definition 5	PoS
+national	Synset('national.a.03')	Synset('national.a.03')	Synset('national.s.04')	Synset('national.a.01')	Synset('home.s.03')	Synset('national.a.02')	Adjective
+active	Synset('active.a.01')	Synset('active.a.01')	Synset('active.a.03')	Synset('active.a.05')	Synset('active.s.04')	Synset('active.s.02')	Adjective
+sound	Synset('audio.n.01')	Synset('audio.n.01')	Synset('sound.n.03')	Synset('sound.n.02')	Synset('sound.n.01')	Synset('sound.n.04')	Noun
+view	Synset('opinion.n.01')	Synset('opinion.n.01')	Synset('view.n.07')	Synset('view.n.03')	Synset('position.n.03')	Synset('view.n.04')	Noun
+piece	Synset('musical_composition.n.01')	Synset('musical_composition.n.01')	Synset('part.n.03')	Synset('piece.n.05')	Synset('piece.n.02')	Synset('piece.n.01')	Noun
+corner	Synset('corner.n.02')	Synset('corner.n.02')	Synset('recess.n.02')	Synset('corner.n.03')	Synset('corner.n.01')	Synset('corner.n.05')	Noun
+place	Synset('stead.n.01')	Synset('stead.n.01')	Synset('place.n.06')	Synset('home.n.01')	Synset('topographic_point.n.01')	Synset('place.n.02')	Noun
+control	Synset('control.n.01')	Synset('control.n.01')	Synset('control.n.05')	Synset('control.n.03')	Synset('dominance.n.02')	Synset('control_condition.n.01')	Noun
+position	Synset('status.n.01')	Synset('status.n.01')	Synset('position.n.04')	Synset('position.n.01')	Synset('military_position.n.01')	Synset('position.n.03')	Noun
+lead	Synset('lead.v.03')	Synset('lead.v.03')	Synset('lead.v.01')	Synset('conduct.v.02')	Synset('lead.v.04')	Synset('head.v.02')	Verb
+form	Synset('shape.v.02')	Synset('shape.v.02')	Synset('form.v.02')	Synset('shape.v.03')	Synset('form.v.03')	Synset('form.v.01')	Verb
+hold	Synset('bear.v.11')	Synset('bear.v.11')	Synset('hold.v.02')	Synset('hold.v.03')	Synset('restrain.v.03')	Synset('hold.v.10')	Verb
+stand	Synset('stand.v.01')	Synset('stand.v.01')	Synset('stand.v.07')	Synset('stand.v.03')	Synset('digest.v.03')	Synset('stand.v.06')	Verb
+change	Synset('switch.v.03')	Synset('switch.v.03')	Synset('change.v.06')	Synset('change.v.03')	Synset('change.v.02')	Synset('change.v.01')	Verb
+stay	Synset('stay.v.01')	Synset('stay.v.01')	Synset('bide.v.01')	Synset('stay.v.04')	Synset('stay.v.05')	Synset('stay.v.02')	Verb
+keep	Synset('observe.v.09')	Synset('observe.v.09')	Synset('keep.v.01')	Synset('continue.v.01')	Synset('keep.v.03')	Synset('keep.v.07')	Verb
