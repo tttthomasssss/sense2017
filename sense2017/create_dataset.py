@@ -46,7 +46,7 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key):
 	'''
 	# Process Collins
 	logging.info('Loading data from Collins Dictionary...')
-	co = CollinsAPIConnector(api_key='iGv4TgxWSxWhD7w2RZv5CB2GZDTtcmd9uxdSY1VNnvZOXZxmBjinibCGx63Fjk09')
+	co = CollinsAPIConnector(api_key='')
 	co.request_data_for_lexeme('take', 'geh in oasch')
 
 
@@ -64,12 +64,8 @@ if (__name__ == '__main__'):
 	root_logger.addHandler(console_handler)
 
 	base_url = 'https://od-api.oxforddictionaries.com/api/v1'
-	app_id = '5119d99d'
-	app_key = '7a4eaa5a7dd12b30a8171c39b31aa760'
 	headers = {'app_id': app_id, 'app_key': app_key}
 
-	collins_1 = 'iGv4TgxWSxWhD7w2RZv5CB2GZDTtcmd9uxdSY1VNnvZOXZxmBjinibCGx63Fjk09'
-	collins_2 = 'Eqno7D19D1BRrMfZK4DTLw4sGmGt8ylx5WhEZDTPRzQDhEnKJpdt2gcIM4At3pdu'
 
 	if (args.num_senses <= 0):
 		num_senses = range(2, 6)
