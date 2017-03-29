@@ -1,5 +1,6 @@
 import logging
 
+from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz
 import requests
 
@@ -73,16 +74,42 @@ class CollinsAPIConnector:
 		logging.info('Found {} entry ids for lexeme={}!'.format(len(entry_ids), lexeme))
 
 		for entry_id in entry_ids:
-			req_url = '{}{}{}?format=xml'.format(self._base_url, api_endpoint, entry_id)
+			req_url = '{}{}{}?format=html'.format(self._base_url, api_endpoint, entry_id)
 			logging.info('Requesting data from {}...'.format(req_url))
 
 			r = requests.get('{}'.format(req_url), headers=self._headers)
 
 			if (r.ok):
-				print('XXX: {}'.format(r.json()['entryContent']))
+				soup = BeautifulSoup(r.json()['entryContent'], 'html.parser')
+
+				definition = ''
+				examples = []
+
+				for hom in soup.find_all('div', {'class': 'hom'}):
+					#for pos in hom.find_all('span', {'class': 'pos'}):
+					#	print(pos.text)
+					for sense in hom.find_all('div', {'class': 'sense'}):
+						sense_def = sense.find('span', {'class': 'def'})
+
+						if (fuzz.ratio(target_def.lower(), sense_def.text.lower()) >= 90):
+							definition = sense_def.text
+
+							for cit in sense.find_all('span', {'class': 'cit'}):
+								for example in cit.find_all('span', {'class': 'quote'}):
+									print(example.text)
+									examples.append(example.text)
+							break
+
+					if (definition is not None and definition != ''): break
+
+				return self._processor(lexeme=lexeme, definition=definition, examples=examples)
+
+
 			else:
 				logging.error('Request to {} failed with status code={}! Reason={}!\nResponse={}'.format(req_url, r.status_code,
 																										 r.reason, r.text))
+				return None
+			
 
 class SemCorAPIConnector:
 	def __init__(self):

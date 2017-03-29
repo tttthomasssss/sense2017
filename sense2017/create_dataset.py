@@ -21,7 +21,7 @@ parser.add_argument('-ns', '--num-senses', type=int, default=-1, help='Number of
 parser.add_argument('-pos', '--part-of-speech', type=str, default='all', help='Part of speech for task ([adjective|noun|verb|all])')
 
 
-def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key):
+def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_api_key):
 	header = 'Lexeme\tTarget Sense Definition\tTarget Sense Sentence'
 	for i in range(1, num_senses+1):
 		header += '\tExample Definition Sense {}\tExample Sentence Sense {}'.format(i, i)
@@ -46,8 +46,9 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key):
 	'''
 	# Process Collins
 	logging.info('Loading data from Collins Dictionary...')
-	co = CollinsAPIConnector(api_key='')
-	co.request_data_for_lexeme('take', 'geh in oasch')
+	co_processor = partial(utils.process, data_source='collins', num_senses=num_senses, pos=pos, split=split)
+	co = CollinsAPIConnector(api_key=co_api_key, processor=co_processor)
+	co.request_data_for_lexeme(lexeme='bring', target_def='To bring someone or something into a particular state or condition means to cause them to be in that state or condition.')
 
 
 
@@ -63,9 +64,11 @@ if (__name__ == '__main__'):
 	console_handler.setFormatter(log_formatter)
 	root_logger.addHandler(console_handler)
 
+	app_id = '5119d99d'
+	app_key = '85df8119bb7fa8c48625897d5eed71f2'
+
 	base_url = 'https://od-api.oxforddictionaries.com/api/v1'
 	headers = {'app_id': app_id, 'app_key': app_key}
-
 
 	if (args.num_senses <= 0):
 		num_senses = range(2, 6)
@@ -80,7 +83,7 @@ if (__name__ == '__main__'):
 	for split in ['dev', 'test']:
 		for ns in num_senses:
 			for pos in posse:
-				create_dataset(num_senses=ns, pos=pos, split=split, timeout=args.timeout, ox_app_id=app_id,
-							   ox_app_key=app_key)
+				create_dataset(num_senses=ns, pos=pos, split=split, timeout=args.timeout, ox_app_id=args.oxford_dictionary_app_id,
+							   ox_app_key=args.oxford_dictionary_app_key, co_api_key=args.collins_dictionary_api_key)
 
 

@@ -78,7 +78,8 @@ setup(
 	# requirements files see:
 	# https://packaging.python.org/en/latest/requirements.html
 	install_requires=[
-		'fuzzywuzzy>=0.15.0'
+		'beautifulsoup4>=4.5.1',
+		'fuzzywuzzy>=0.15.0',
 		'joblib>=0.9.2',
 		'nltk>=3.0.2',
 		'requests>=2.11.1'

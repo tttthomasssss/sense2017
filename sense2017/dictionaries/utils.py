@@ -7,7 +7,7 @@ from fuzzywuzzy import fuzz
 PROJECT_PATH = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def process_oxford(lexeme, examples, definition, split, data_source, num_senses, pos):
+def process(lexeme, examples, definition, split, data_source, num_senses, pos):
 	key = encode_text('{}_senses_{}'.format(num_senses, split)).decode()
 
 	with open(os.path.join(PROJECT_PATH, 'resources', 'pixie_dust', 'validation_map.json'), 'r') as mapping_file:
@@ -26,10 +26,6 @@ def process_oxford(lexeme, examples, definition, split, data_source, num_senses,
 						if (sim1 > 90 or sim2 > 90):
 							data.append(parts)
 	return header, data
-
-
-def process_collins():
-	pass
 
 
 def encode_text(text, encoder=base64.b64encode):
