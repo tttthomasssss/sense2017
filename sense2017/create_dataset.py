@@ -22,7 +22,7 @@ parser.add_argument('-ns', '--num-senses', type=int, default=-1, help='Number of
 parser.add_argument('-pos', '--part-of-speech', type=str, default='all', help='Part of speech for task ([adjective|noun|verb|all])')
 
 
-def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_api_key):
+def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_api_key, output_file):
 	header = 'Lexeme\tTarget Sense Definition\tTarget Sense Sentence'
 	for i in range(1, num_senses+1):
 		header += '\tExample Definition Sense {}\tExample Sentence Sense {}'.format(i, i)
@@ -30,9 +30,8 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_ap
 	dataset = [header.split('\t')]
 
 	# Process Oxford
-	'''
 	logging.info('Loading data from Oxford Dictionary...')
-	ox_processor = partial(utils.process_oxford, data_source='oxford', num_senses=num_senses, pos=pos, split=split)
+	ox_processor = partial(utils.process, data_source='oxford', num_senses=num_senses, pos=pos, split=split)
 	ox = OxfordAPIConnector(app_id=ox_app_id, app_key=ox_app_key, processor=ox_processor)
 
 	with open(os.path.join(utils.PROJECT_PATH, 'resources', 'definitions', '{}_senses'.format(num_senses), split,
@@ -44,18 +43,44 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_ap
 				_, data_point = ox.request_data_for_lexeme(lexeme=parts[0], target_def=parts[1])
 				dataset.append(data_point)
 				sleep(timeout)
-	'''
+	logging.info('Finished loading data from Oxford Dictionary!')
+
 	# Process Collins
-	#logging.info('Loading data from Collins Dictionary...')
-	#co_processor = partial(utils.process, data_source='collins', num_senses=num_senses, pos=pos, split=split)
-	#co = CollinsAPIConnector(api_key=co_api_key, processor=co_processor)
-	#co.request_data_for_lexeme(lexeme='bring', target_def='To bring someone or something into a particular state or condition means to cause them to be in that state or condition.')
+	logging.info('Loading data from Collins Dictionary...')
+	co_processor = partial(utils.process, data_source='collins', num_senses=num_senses, pos=pos, split=split)
+	co = CollinsAPIConnector(api_key=co_api_key, processor=co_processor)
+
+	with open(os.path.join(utils.PROJECT_PATH, 'resources', 'definitions', '{}_senses'.format(num_senses), split,
+						   'collins', 'sense2017_wsd_task.txt'), 'r') as in_file:
+		next(in_file) # Skip Header
+		for idx, line in enumerate(in_file):
+			parts = line.strip().split('\t')
+			if (parts[-1].lower() == pos.lower()):
+				_, data_point = co.request_data_for_lexeme(lexeme=parts[0], target_def=parts[1])
+				dataset.append(data_point)
+				sleep(timeout)
+	logging.info('Finished loading data from Collins Dictionary!')
 
 	# Process SemCor
 	logging.info('Loading data from SemCor...')
 	sc_processor = partial(utils.process, data_source='semcor', num_senses=num_senses, pos=pos, split=split)
 	sc = SemCorAPIConnector(processor=sc_processor)
-	sc.find_data_for_synset(lexeme='believe', synset='believe.v.01')
+
+	with open(os.path.join(utils.PROJECT_PATH, 'resources', 'definitions', '{}_senses'.format(num_senses), split,
+						   'semcor', 'sense2017_wsd_task.txt'), 'r') as in_file:
+		next(in_file)  # Skip Header
+		for idx, line in enumerate(in_file):
+			parts = line.strip().split('\t')
+			if (parts[-1].lower() == pos.lower()):
+				_, data_point = sc.find_data_for_synset(lexeme=parts[0], synset=parts[1].split('\'')[1])
+				dataset.append(data_point)
+				sleep(timeout)
+	logging.info('Finished loading data from SemCor!')
+
+	print('LEN DATASET={}'.format(len(dataset)))
+	with open(output_file, 'w') as out_file:
+		for d in dataset:
+			out_file.write('{}\n'.format(d))
 
 
 if (__name__ == '__main__'):
@@ -85,10 +110,16 @@ if (__name__ == '__main__'):
 	else:
 		posse = [args.part_of_speech]
 
+	if (not os.path.exists(args.output_path)):
+		os.makedirs(args.output_path)
+
 	for split in ['dev', 'test']:
 		for ns in num_senses:
 			for pos in posse:
+				out_file = '{}_senses-{}_pos-{}_{}'.format(split, ns, pos, args.output_file)
+				logging.info('Retrieving data for {} senses and pos_tag={} [{}]...'.format(ns, pos, split))
 				create_dataset(num_senses=ns, pos=pos, split=split, timeout=args.timeout, ox_app_id=args.oxford_dictionary_app_id,
-							   ox_app_key=args.oxford_dictionary_app_key, co_api_key=args.collins_dictionary_api_key)
+							   ox_app_key=args.oxford_dictionary_app_key, co_api_key=args.collins_dictionary_api_key,
+							   output_file=os.path.join(args.output_path, out_file))
 
 

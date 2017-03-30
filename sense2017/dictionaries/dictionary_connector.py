@@ -27,26 +27,26 @@ class OxfordAPIConnector:
 			max_sim = 0
 
 			for entry in r.json()['results']:
-				for lex_entry in entry['lexicalEntries']:
-					for eentry in lex_entry['entries']:
-						for sense in eentry['senses']:
-							for sense_def in sense['definitions']:
+				for lex_entry in entry.get('lexicalEntries', []):
+					for eentry in lex_entry.get('entries', []):
+						for sense in eentry.get('senses', []):
+							for sense_def in sense.get('definitions', []):
 								sim = fuzz.ratio(sense_def.lower(), target_def.lower())
 								if (sim >= 90 and sim > max_sim): # Allow a bit of slack (punctuation and stuff)
 									max_sim = sim
 									definition = sense_def.lower()
 									examples = []
-									for ex in sense['examples']:
+									for ex in sense.get('examples', []):
 										examples.append(ex['text'])
 							if ('subsenses' in sense):
-								for subsense in sense['subsenses']:
-									for subsense_def in subsense['definitions']:
+								for subsense in sense.get('subsenses', []):
+									for subsense_def in subsense.get('definitions', []):
 										sim = fuzz.ratio(subsense_def.lower(), target_def.lower())
 										if (sim >= 90 and sim > max_sim):  # Allow a bit of slack (punctuation and stuff)
 											max_sim = sim
 											definition = subsense_def.lower()
 											examples = []
-											for ex in subsense['examples']:
+											for ex in subsense.get('examples', []):
 												examples.append(ex['text'])
 
 			return self._processor(lexeme=lexeme, definition=definition, examples=examples)
@@ -100,7 +100,6 @@ class CollinsAPIConnector:
 
 							for cit in sense.find_all('span', {'class': 'cit'}):
 								for example in cit.find_all('span', {'class': 'quote'}):
-									print(example.text)
 									examples.append(example.text)
 							break
 
