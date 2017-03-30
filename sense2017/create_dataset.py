@@ -5,8 +5,9 @@ import logging
 import os
 import sys
 
-from sense2017.dictionaries.dictionary_connector import OxfordAPIConnector
 from sense2017.dictionaries.dictionary_connector import CollinsAPIConnector
+from sense2017.dictionaries.dictionary_connector import OxfordAPIConnector
+from sense2017.dictionaries.dictionary_connector import SemCorAPIConnector
 from sense2017.dictionaries import utils
 
 parser = ArgumentParser()
@@ -45,12 +46,16 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_ap
 				sleep(timeout)
 	'''
 	# Process Collins
-	logging.info('Loading data from Collins Dictionary...')
-	co_processor = partial(utils.process, data_source='collins', num_senses=num_senses, pos=pos, split=split)
-	co = CollinsAPIConnector(api_key=co_api_key, processor=co_processor)
-	co.request_data_for_lexeme(lexeme='bring', target_def='To bring someone or something into a particular state or condition means to cause them to be in that state or condition.')
+	#logging.info('Loading data from Collins Dictionary...')
+	#co_processor = partial(utils.process, data_source='collins', num_senses=num_senses, pos=pos, split=split)
+	#co = CollinsAPIConnector(api_key=co_api_key, processor=co_processor)
+	#co.request_data_for_lexeme(lexeme='bring', target_def='To bring someone or something into a particular state or condition means to cause them to be in that state or condition.')
 
-
+	# Process SemCor
+	logging.info('Loading data from SemCor...')
+	sc_processor = partial(utils.process, data_source='semcor', num_senses=num_senses, pos=pos, split=split)
+	sc = SemCorAPIConnector(processor=sc_processor)
+	sc.find_data_for_synset(lexeme='believe', synset='believe.v.01')
 
 
 if (__name__ == '__main__'):

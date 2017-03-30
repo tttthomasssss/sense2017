@@ -2,6 +2,10 @@ import logging
 
 from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz
+from nltk.corpus import semcor
+from nltk.corpus.reader.wordnet import Lemma
+from nltk.corpus.reader.wordnet import Synset
+from nltk.corpus import wordnet
 import requests
 
 
@@ -103,14 +107,53 @@ class CollinsAPIConnector:
 					if (definition is not None and definition != ''): break
 
 				return self._processor(lexeme=lexeme, definition=definition, examples=examples)
-
-
 			else:
 				logging.error('Request to {} failed with status code={}! Reason={}!\nResponse={}'.format(req_url, r.status_code,
 																										 r.reason, r.text))
 				return None
-			
+
 
 class SemCorAPIConnector:
-	def __init__(self):
-		pass
+	def __init__(self, **kwargs):
+
+		self._sents = []
+		self._tagged_sents = []
+		self._semcor_file_ids = self._load_semcor_file_ids()
+		self._processor = kwargs.get('processor', lambda lexeme, definition, examples: (lexeme, definition, examples))
+
+		for file_id in self._semcor_file_ids:
+			self._sents.append(semcor.sents(file_id))
+			self._tagged_sents.append(semcor.tagged_sents(file_id, 'both'))
+
+	def find_data_for_synset(self, synset, lexeme):
+		synset = synset if isinstance(synset, Synset) else wordnet.synset(synset)
+
+		definition = ''
+		examples = []
+
+		for idx, (sent_chunks, tagged_sent_chunks) in enumerate(zip(self._sents, self._tagged_sents), 1):
+			if (idx % 50 == 0): logging.info('\tProcessed {}/{} chunks!'.format(idx, len(self._sents)))
+			for sent_chunk, tagged_sent_chunk in zip(sent_chunks, tagged_sent_chunks):
+				for tree in tagged_sent_chunk:
+					if (isinstance(tree.label(), Lemma) and tree.label().synset() == synset):
+						definition = synset.name()
+						examples.append(' '.join(sent_chunk))
+						break
+
+		return self._processor(lexeme=lexeme, definition=definition, examples=examples)
+
+	def _load_semcor_file_ids(self):
+		try:
+			semcor_file_ids = semcor.fileids()
+		except LookupError as le:
+			import nltk
+			logging.warning(le)
+			logging.info('Downloading SemCor corpus...')
+			status = nltk.download('semcor')
+			if (status):
+				logging.info('SemCor downloaded successfully!')
+				semcor_file_ids = semcor.fileids()
+			else:
+				logging.error('Downloading SemCor failed!')
+				raise LookupError(le)
+		return semcor_file_ids
