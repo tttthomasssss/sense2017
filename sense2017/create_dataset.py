@@ -13,13 +13,13 @@ from sense2017.dictionaries import utils
 parser = ArgumentParser()
 parser.add_argument('-oxid', '--oxford-dictionary-app-id', type=str, required=True, help='Oxford Dictionaries App ID')
 parser.add_argument('-oxkey', '--oxford-dictionary-app-key', type=str, required=True, help='Oxford Dictionaries App Key')
-parser.add_argument('-co', '--collins-dictionary-api-key', type=str, required=True, help='Collins Dictionary API Key')
+parser.add_argument('-cokey', '--collins-dictionary-api-key', type=str, required=True, help='Collins Dictionary API Key')
 parser.add_argument('-op', '--output-path', type=str, required=True, help='Output Path')
 parser.add_argument('-o', '--output-file', type=str, default='sense2017_WSD.txt', help='Output File name')
-parser.add_argument('-v', '--validate', action='store_true', help='Validate dataset')
 parser.add_argument('-to', '--timeout', type=int, default=5, help='Timeout between requests')
 parser.add_argument('-ns', '--num-senses', type=int, default=-1, help='Number of senses for task (2-5; pass -1 for all)')
 parser.add_argument('-pos', '--part-of-speech', type=str, default='all', help='Part of speech for task ([adjective|noun|verb|all])')
+parser.add_argument('-sp', '--split', type=str, default='all', help='Split for task ([dev|test|all])')
 
 
 def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_api_key, output_file):
@@ -78,6 +78,7 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_ap
 	logging.info('Finished loading data from SemCor!')
 
 	print('LEN DATASET={}'.format(len(dataset)))
+	print('DATASET: {}'.format(dataset[:3]))
 	with open(output_file, 'w') as out_file:
 		for d in dataset:
 			out_file.write('{}\n'.format(d))
@@ -94,12 +95,6 @@ if (__name__ == '__main__'):
 	console_handler.setFormatter(log_formatter)
 	root_logger.addHandler(console_handler)
 
-	app_id = '5119d99d'
-	app_key = '85df8119bb7fa8c48625897d5eed71f2'
-
-	base_url = 'https://od-api.oxforddictionaries.com/api/v1'
-	headers = {'app_id': app_id, 'app_key': app_key}
-
 	if (args.num_senses <= 0):
 		num_senses = range(2, 6)
 	else:
@@ -110,10 +105,15 @@ if (__name__ == '__main__'):
 	else:
 		posse = [args.part_of_speech]
 
+	if (args.split.lower() == 'all'):
+		splits = ['dev', 'test']
+	else:
+		splits = [args.split]
+
 	if (not os.path.exists(args.output_path)):
 		os.makedirs(args.output_path)
 
-	for split in ['dev', 'test']:
+	for split in splits:
 		for ns in num_senses:
 			for pos in posse:
 				out_file = '{}_senses-{}_pos-{}_{}'.format(split, ns, pos, args.output_file)
