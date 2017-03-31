@@ -27,7 +27,7 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_ap
 	for i in range(1, num_senses+1):
 		header += '\tExample Definition Sense {}\tExample Sentence Sense {}'.format(i, i)
 	header += '\tData Source\tPoS'
-	dataset = [header.split('\t')]
+	dataset = [header]
 
 	# Process Oxford
 	logging.info('Loading data from Oxford Dictionary...')
@@ -77,11 +77,11 @@ def create_dataset(num_senses, pos, split, timeout, ox_app_id, ox_app_key, co_ap
 				sleep(timeout)
 	logging.info('Finished loading data from SemCor!')
 
-	print('LEN DATASET={}'.format(len(dataset)))
-	print('DATASET: {}'.format(dataset[:3]))
+	logging.info('Writing {} data points to file {}...'.format(len(dataset), output_file))
 	with open(output_file, 'w') as out_file:
 		for d in dataset:
 			out_file.write('{}\n'.format(d))
+	logging.info('Finished!')
 
 
 if (__name__ == '__main__'):

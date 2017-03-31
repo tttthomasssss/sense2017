@@ -23,7 +23,7 @@ def process(lexeme, examples, definition, split, data_source, num_senses, pos):
 						sim1 = fuzz.ratio(parts[i].lower(), ex.lower())
 						sim2 = fuzz.ratio(parts[i-1].lower(), definition.lower())
 						if (sim1 > 90 or sim2 > 90):
-							return header, '\t'.join(parts) # Found what we need, break early
+							return '\t'.join(header), '\t'.join(parts) # Found what we need, break early
 	return '', '' # Fail
 
 
