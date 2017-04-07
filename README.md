@@ -1,5 +1,5 @@
 # sense2017
-Task setup of the paper "One Representation per Word - _Does it make Sense for Composition?_"
+Task setup of the paper "[One Representation per Word - _Does it make Sense for Composition?_](http://www.aclweb.org/anthology/W17-1910)"
 
 This package re-creates the dataset as used in the paper.
 
