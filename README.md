@@ -6,13 +6,26 @@ This package re-creates the dataset as used in the paper.
 If you use this dataset in your research please use the following citation entry:
 
 ```
-@inproceedings{Kober_2017,
-	Address = {Valencia, Spain},
-	Author = {Kober, Thomas and Weeds, Julie and Wilkie, John and Reffin, Jeremy and Weir, David},
-	Booktitle = {Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications},
-	Month = {April},
-	Title = {One Representation per Word --- \emph{Does it make Sense for Composition?}},
-	Year = {2017}
+@InProceedings{kober-EtAl:2017:SENSE2017,
+  author    = {Kober, Thomas  and  Weeds, Julie  and  Wilkie, John  and  Reffin, Jeremy  and  Weir, David},
+  title     = {One Representation per Word - Does it make Sense for Composition?},
+  booktitle = {Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications},
+  month     = {April},
+  year      = {2017},
+  address   = {Valencia, Spain},
+  publisher = {Association for Computational Linguistics},
+  pages     = {79--90},
+  abstract  = {In this paper, we investigate whether an a priori disambiguation of word senses
+	is strictly necessary or whether the meaning of a word in context can be
+	disambiguated through composition alone. We evaluate the performance of
+	off-the-shelf single-vector and multi-sense vector models on a benchmark phrase
+	similarity task and a novel task for word-sense discrimination. We find that
+	single-sense vector models perform as well or better than multi-sense vector
+	models despite arguably less clean elementary representations. Our findings
+	furthermore show that simple composition functions such as pointwise addition
+	are able to recover sense specific information from a single-sense vector model
+	remarkably well.},
+  url       = {http://www.aclweb.org/anthology/W17-1910}
 }
 ```
 
