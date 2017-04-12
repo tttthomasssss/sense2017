@@ -29,6 +29,8 @@ If you use this dataset in your research please use the following citation entry
 }
 ```
 
+Please email the first author if you have any queries with regards to this task.
+
 ### Prerequisits
 
 * Oxford Dictionary API Key (get from [https://developer.oxforddictionaries.com](https://developer.oxforddictionaries.com))
